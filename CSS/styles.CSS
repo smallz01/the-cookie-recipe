@@ -1,0 +1,174 @@
+/* New Style */
+  html    {
+    box-sizing: border-box;
+}
+
+  *, *:before, *:after    {
+    box-sizing: inherit;
+}
+
+  img {
+    max-width: 100%;
+}
+
+
+/* New Style */
+body {
+  background-color: #303135;
+  /*font-family: verdana, sans-serif;*/
+  font-size:35px;
+  line-height: 22px;
+}
+
+/* New Style */
+.italic-paragraph {
+  font-style: italic;
+}
+
+/* New Style */
+p {
+  font-size: 25px;
+  line-height: 30px;
+  font-family: 'Gaegu', cursive;
+  color: #DFE5FA
+}
+
+/* New Style */
+h3 {
+  font-family: 'Gaegu', cursive;
+  font-size:30px;
+  line-height: 30px;
+  color: #DFE5FA
+}
+
+/* New Style */
+h2 {
+  color: #5677F8;
+  font-family: 'Lacquer', cursive;
+  font-size: 30px;
+}
+
+/* New Style */
+h1, h4, h5, h6 {
+  color: #5677F8;
+  font-family: 'Lacquer', cursive;
+}
+
+/* New Style */
+.title {
+  color: #5677F8;
+  font-family: 'Lacquer', cursive;
+  line-height: normal;
+}
+/* New Style */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* New Style */
+a:visited{
+  color: #BF9976;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/* New Style */
+a:hover{
+  color: #945A26;
+  background-color: transparent;
+}
+
+/* New Style */
+a {
+  text-decoration: none;
+}
+
+/* New Style */
+a :link {
+  color: #95663C;
+}
+
+/* New Style */
+ul {
+  font-family: 'Gaegu', cursive;
+  font-size: 20px;
+  line-height: 25px;
+  color: #DFE5FA
+
+}
+
+/* New Style */
+ol {
+  font-size: 20px;
+  line-height: 35px;
+  font-family: 'Gaegu', cursive;
+  color: #DFE5FA
+}
+
+/* New Style: Responsive design elements */
+@media (min-width: 600px) {
+  .one    {
+      position: absolute;
+      left: 20px;
+      width: 45%;
+  }
+  .two    {
+      position: absolute;
+      top: 30%;
+      right: 20px;
+      width: 45%;
+    }
+
+/* For Phones */
+  @media only screen and (max-width:768px) {
+    [class*="col-"] {
+    width: 100%;
+
+  }
+}
+  /* For tablets: */
+        @media only screen and (min-width: 600px) {
+          .col-s-1 {width: 8.33%;}
+          .col-s-2 {width: 16.66%;}
+          .col-s-3 {width: 25%;}
+          .col-s-4 {width: 33.33%;}
+          .col-s-5 {width: 41.66%;}
+          .col-s-6 {width: 50%;}
+          .col-s-7 {width: 58.33%;}
+          .col-s-8 {width: 66.66%;}
+          .col-s-9 {width: 75%;}
+          .col-s-10 {width: 83.33%;}
+          .col-s-11 {width: 91.66%;}
+          .col-s-12 {width: 100%;}
+        }
+/* For desktop: */
+        @media only screen and (min-width: 768px) {
+          .col-1 {width: 8.33%;}
+          .col-2 {width: 16.66%;}
+          .col-3 {width: 25%;}
+          .col-4 {width: 33.33%;}
+          .col-5 {width: 41.66%;}
+          .col-6 {width: 50%;}
+          .col-7 {width: 58.33%;}
+          .col-8 {width: 66.66%;}
+          .col-9 {width: 75%;}
+          .col-10 {width: 83.33%;}
+          .col-11 {width: 91.66%;}
+          .col-12 {width: 100%;}
+        }
+
+/* New Style */
+        .column {
+          float: left;
+          width: 50%;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
